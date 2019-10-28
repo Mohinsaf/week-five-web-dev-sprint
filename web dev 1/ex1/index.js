@@ -1,0 +1,1 @@
+$('img').attr('src', 'https://www.dogbreedslist.info/uploads/allimg/dog-pictures/Shiba-Inu-2.jpg')
