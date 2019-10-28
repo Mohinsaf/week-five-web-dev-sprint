@@ -1,0 +1,14 @@
+.body {
+	width: 250px;
+	height: 600px;
+	border: 4px #77A solid;
+	background-color: #AAF;
+	padding: 5px;
+}
+
+.display {
+	width: 200px;
+	height: 40px;
+	background-color: #CCF;
+
+}

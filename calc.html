@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insaf's Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="body">
+		<div class="display" id='display'>
+
+		</div>
+		<input id='num1' type="number">
+		<input id='num2' type="number">
+		<button id="plus">+</button>
+		<button id="minus">-</button>
+		<button id="multiply">*</button>
+		<button id="divide">/</button>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script>
+		$('#plus').on('click', function(){
+			var result = Number($('#num1').val()) + Number($('#num2').val());
+			$('#display').text(result)
+		})
+	</script>
+</body>
+</html>
